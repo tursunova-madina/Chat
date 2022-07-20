@@ -1,0 +1,109 @@
+body {
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  margin-top: 100px;
+  width: 400px;
+  height: 550px;
+  background: white;
+}
+.container ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+  height: 60px;
+  background: blue;
+}
+.container ul li {
+  color: white;
+}
+.container ul i {
+  color: white;
+}
+.container .chat__main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.container .chat__main .chat {
+  color: silver;
+  font-weight: 100;
+  font-family: sans-serif;
+}
+.container .chat__main .before {
+  width: 140px;
+  height: 1px;
+  background: silver;
+  position: relative;
+}
+.container .chat__main .after {
+  width: 140px;
+  height: 1px;
+  background: silver;
+  position: relative;
+}
+.container .messages .time {
+  font-size: small;
+  margin-left: 10px;
+}
+.container .messages .message {
+  margin-top: -15px;
+  margin-left: 10px;
+  width: 300px;
+  background: rgb(192, 237, 246);
+  border-radius: 20px;
+  border-top-left-radius: 0;
+}
+.container .messages .message .message__text {
+  padding: 10px;
+}
+.container .messages .second_time {
+  margin-left: 360px;
+}
+.container .messages .second_m {
+  position: relative;
+  left: 80px;
+  border-radius: 20px;
+  border-top-right-radius: 0;
+}
+.container .messages .line {
+  width: 90%;
+  height: 1px;
+  background: silver;
+  display: block;
+  margin: auto;
+}
+.container .messages form {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.container .messages form input {
+  width: 250px;
+  padding: 10px;
+  border: none;
+}
+.container .messages form input ::-moz-placeholder {
+  color: darkgray;
+  font-size: 25px;
+}
+.container .messages form input :-ms-input-placeholder {
+  color: darkgray;
+  font-size: 25px;
+}
+.container .messages form input ::placeholder {
+  color: darkgray;
+  font-size: 25px;
+}
+.container .messages form button {
+  color: blue;
+  font-size: 15px;
+  font-family: sans-serif;
+  border: none;
+  background: white;
+  font-weight: 200;
+}/*# sourceMappingURL=stylesheet.css.map */
